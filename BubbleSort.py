@@ -16,5 +16,7 @@ def bubbleSort(lst):
 lst = []
 for _ in range(int(input("Enter length: "))):
     lst.append(int(input("Enter num: ")))
-print(lst)
-print(bubbleSort(lst))
+print('List before sorting :', lst)
+
+bubbleSort(lst)
+print('List after sorting :', lst)
