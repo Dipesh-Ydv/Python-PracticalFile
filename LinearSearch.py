@@ -1,5 +1,5 @@
 def linearSearch(lst, target):
-    
+
     for i in range(len(lst)):
 
         # check for each element in the list
@@ -14,8 +14,10 @@ def linearSearch(lst, target):
 lst = [1,2,3,4,5,6]
 target = 4
 
-if linearSearch(lst, target) != -1:
-    print('Target element found on index number :', linearSearch(lst, target))
+ans = linearSearch(lst, target)
+
+if ans != -1:
+    print('Target element found on index number :', ans)
 else:
     print('Target element is not present in the list:(')   
     
