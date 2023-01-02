@@ -8,6 +8,7 @@ def GCD(a, b):
         if (a % i == 0) and (b % i == 0):
             return i
 
-
-d = GCD(3, 4)
-print(d)
+num1 = int(input('Enter first number: '))
+num2 = int(input('Enter second number: '))
+ans = GCD(num1, num2)
+print('GCD of', num1, 'and', num2 , 'is:' ,ans)
