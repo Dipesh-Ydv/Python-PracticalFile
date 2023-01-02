@@ -11,7 +11,7 @@ def isPrime(num):
 
 def nPrimeNo(num):
     # Check for each number is it prime or not
-    for i in range(1,num+1):
+    for i in range(2,num+1):
         if isPrime(i) == True:
             print(i)
 
