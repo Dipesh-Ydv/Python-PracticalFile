@@ -15,4 +15,5 @@ def sqrt(num, l):
 
 # The lesser the value of l, more time the loop will run
 # And more precise will be the ans
-print(sqrt(25, 0.00001))   
+num = int(input('Enter a number: '))
+print('Square root of', num, 'is:', sqrt(num, 0.00001))   
