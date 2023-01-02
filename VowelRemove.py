@@ -6,4 +6,8 @@ def rmVowel(string):
             ans = ans + string[i]
     print(ans)
 
-rmVowel('Dipesh Yadav')
+str = input('Enter the string: ')
+print('String before removing vowels:')
+print(str)
+print('String after removing vowels:')
+rmVowel(str)
